@@ -42,17 +42,20 @@ if __name__ == "__main__":
         cv2.namedWindow('Output')                   # Creating the Window
         cv2.setMouseCallback('Output',onclick)      # Binding a event
 
+        # creating a copy
+        temp = img.copy()
+
         # Display the color name on the screen
         if isClick == True:
-            cv2.rectangle(img,(30,20),(550,50),color,-1)  # creating a rectangle of the same color
+            cv2.rectangle(temp,(30,20),(550,50),color,-1)  # creating a rectangle of the same color
             b,g,r = color
             color_name = getColorName(r,g,b)                # Finding the name of the color
             # print the name on the screem 
             text = f'{color_name} R:{r} G:{g} B:{b}'        
-            cv2.putText(img, text, (40,45), cv2.FONT_HERSHEY_PLAIN,2,(0,0,0),2)
+            cv2.putText(temp, text, (40,45), cv2.FONT_HERSHEY_PLAIN,2,(0,0,0),2)
 
         # Creating the Exit Pole
-        cv2.imshow('Output',img)
+        cv2.imshow('Output',temp)
         if cv2.waitKey(1) & 0xFF == 27:
             break
 

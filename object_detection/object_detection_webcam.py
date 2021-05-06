@@ -1,11 +1,8 @@
 import cv2
 import numpy as np
 
-import myutils
-
 def empty(a):
     pass
-
 
 def getContours(img,output_img):
     contours,hierachy =  cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
@@ -38,8 +35,8 @@ cv2.createTrackbar('Min Area',windowName,5000,30000,empty)
 
 cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
 
-address = 'http://192.168.0.101:4747/video'
-cam.open(address)
+# address = 'http://192.168.0.101:4747/video'
+# cam.open(address)
 
 
 # Start Video Rolling

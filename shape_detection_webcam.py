@@ -35,7 +35,7 @@ cv2.createTrackbar('Min Area',windowName,5000,30000,empty)
 
 cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
 
-# address = 'http://192.168.0.101:4747/video'
+# address = 'http://192.168.0.100:4747/video'
 # cam.open(address)
 
 
@@ -67,9 +67,6 @@ while True:
     
     getContours(frameDilate,output_frame)
 
-    # Stacking Images
-    #stackimgs = myutils.stackImage(.5,[frame,frameBlur,frameGray,frameCanny,frameDilate,output_frame])
-    
     # Display
     cv2.imshow(windowName,output_frame)
 

@@ -16,28 +16,15 @@ cv2.namedWindow(windowName)
 # cv2.createTrackbar('Scale Factor',windowName,1.1,9,empty)
 # cv2.createTrackbar('Min Neighbors',windowName,1,10,empty)
 
-cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
+cam = cv2.VideoCapture(0)           # *Creating the Webcam Instance
 
-pretime = time.time()               # Setting time  
-
-# Video Starts
+# Recording Starts
 while True:
+    timer = time.time()             # Getting the time
     isTrue, frame = cam.read()      # Reading the Frames
     
     # Mirror the frame output
     frame = cv2.flip(frame,1)
-
-    # Adding the FPS in video
-    newtime = time.time()               # Taking the Current time
-    fps = int(1/(newtime-pretime))      # Calculating the FPS
-    pretime = newtime                   # Set the previous time
-    cv2.putText(frame,                  # text adding to the frame 
-                text=str(fps) + 'fps',
-                org=(10,30),
-                fontFace=cv2.FONT_HERSHEY_DUPLEX,
-                fontScale=1,
-                color=(255,0,0),
-                thickness=2)
     
     frameGray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
@@ -54,12 +41,22 @@ while True:
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
+    # Adding the FPS in the Video
+    fps = int(1/(time.time() - timer))          # Calculating the FPS
+    cv2.putText(frame,                          # Adding the FPS to the frame 
+                text=str(fps) + 'fps',
+                org=(10,30),
+                fontFace=cv2.FONT_HERSHEY_DUPLEX,
+                fontScale=1,
+                color=(255,0,0),
+                thickness=2)
+    
     # Display the Frame
     cv2.imshow(windowName,frame)
-    
+
     # Creating the Exit Pole
     if cv2.waitKey(1) & 0xFF == 27:
         break
 
 cam.release()                       # Releasing the instance
-cv2.destroyAllWindows()                 # Destroing the windows
+cv2.destroyAllWindows()             # Destroing the windows

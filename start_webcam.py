@@ -7,16 +7,14 @@ cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
 cam.set(3,640)                      # Width
 cam.set(4,480)                      # Height
 
-pretime = time.time()               # Setting time
 
 while True:
+    timer = time.time()             # Getting the time
     isTrue, frame = cam.read()      # Reading the Frames
     
-    # Adding the FPS in video
-    newtime = time.time()               # Taking the Current time
-    fps = int(1/(newtime-pretime))      # Calculating the FPS
-    pretime = newtime                   # Set the previous time
-    cv2.putText(frame,                  # text adding to the frame 
+    # Adding the FPS in the Video
+    fps = int(1/(time.time()-timer))        # Calculating the FPS
+    cv2.putText(frame,                      # Adding the FPS to the frame
                 text=str(fps) + 'fps',
                 org=(10,30),
                 fontFace=cv2.FONT_HERSHEY_DUPLEX,
@@ -32,4 +30,4 @@ while True:
         break
     
 cam.release()                       # Releasing the instance
-cv2.destroyAllWindows()                 # Destroing the windows
+cv2.destroyAllWindows()             # Destroing the windows

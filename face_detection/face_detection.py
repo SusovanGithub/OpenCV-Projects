@@ -5,10 +5,10 @@ import time
 def empty(a):
     pass
 
-# Loading the classifier
+# * Loading the classifier
 face_cascade = cv2.CascadeClassifier('face_detect_cascade.xml')
 
-# Creating a Window
+# * Creating a Window
 windowName = "Output"
 cv2.namedWindow(windowName)
 
@@ -16,14 +16,14 @@ cv2.namedWindow(windowName)
 # cv2.createTrackbar('Scale Factor',windowName,1.1,9,empty)
 # cv2.createTrackbar('Min Neighbors',windowName,1,10,empty)
 
-cam = cv2.VideoCapture(0)           # *Creating the Webcam Instance
+cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
 
 # Recording Starts
 while True:
     timer = time.time()             # Getting the time
     isTrue, frame = cam.read()      # Reading the Frames
     
-    # Mirror the frame output
+    # * Mirror the frame output
     frame = cv2.flip(frame,1)
     
     frameGray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
@@ -32,16 +32,16 @@ while True:
     # scale = cv2.getTrackbarPos('Scale Factor',windowName) + 1     # Scale Factor
     # minNgh = cv2.getTrackbarPos('Min Neighbors',windowName)       # Min Neighbors
 
-    scale = 1.1
+    scale = 1.09
     minNgh = 4
 
-    # Detecting the face
+    # * Detecting the face
     faces = face_cascade.detectMultiScale(frameGray,scale,minNgh)
     # Creating a box outline for the faces
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-    # Adding the FPS in the Video
+    # * Adding the FPS in the Video
     fps = int(1/(time.time() - timer))          # Calculating the FPS
     cv2.putText(frame,                          # Adding the FPS to the frame 
                 text=str(fps) + 'fps',
@@ -51,10 +51,10 @@ while True:
                 color=(255,0,0),
                 thickness=2)
     
-    # Display the Frame
+    # * Display the Frame
     cv2.imshow(windowName,frame)
 
-    # Creating the Exit Pole
+    # * Creating the Exit Pole
     if cv2.waitKey(1) & 0xFF == 27:
         break
 

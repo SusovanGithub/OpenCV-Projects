@@ -6,12 +6,12 @@ def empty(a):
     pass
 
 
-# creating the Tracpad
-windowName = 'Color Detection'        # Window Name
-cv2.namedWindow(windowName)         # Window Creation
-#cv2.resizeWindow(windowName,640,240)    # Resizing the Window
+# * creating the Window
+windowName = 'Color Detection'          # Window Name
+cv2.namedWindow(windowName)             # Window Creation
+#cv2.resizeWindow(windowName,640,240)   # Resizing the Window
 
-# adding the Track pad
+# * Adding the Track pad
 cv2.createTrackbar('HUE min',windowName,0,179,empty)
 cv2.createTrackbar('HUE max',windowName,179,179,empty)
 cv2.createTrackbar('SAT min',windowName,0,255,empty)
@@ -33,10 +33,11 @@ while True:
 
     # Mirror the image output
     frame = cv2.flip(frame,1)
-    # Converting the frame in HSC color space
+    
+    # * Converting the frame in HSC color space
     framehsv = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)
     
-    # getting the track bar Values  
+    # * Getting the track bar Values  
     h_min = cv2.getTrackbarPos('HUE min',windowName)
     h_max = cv2.getTrackbarPos('HUE max',windowName)
     s_min = cv2.getTrackbarPos('SAT min',windowName)
@@ -57,9 +58,10 @@ while True:
     # stacking the output
     stackimgs = np.hstack([frame,result])
 
-    # Display
+    # * Display
     cv2.imshow(windowName,stackimgs)
-    # Creating the Exit Pole
+    
+    # * Creating the Exit Pole
     if cv2.waitKey(1) & 0xFF == 27:
         break
 

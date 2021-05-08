@@ -23,11 +23,11 @@ def getContours(img,output_img):
                         (0,255,0))
 
 
-# creating the Tracpad
+# * Creating the Window
 windowName = 'Object Detection'        # Window Name
-cv2.namedWindow(windowName)         # Window Creation
+cv2.namedWindow(windowName)
 
-# adding the Track pad
+# * Adding the Track pad
 cv2.createTrackbar('Threshold 1',windowName,0,255,empty)
 cv2.createTrackbar('Threshold 2',windowName,0,255,empty)
 cv2.createTrackbar('Min Area',windowName,5000,30000,empty)
@@ -46,7 +46,6 @@ while True:
     
     # Mirror the image output
     # frame = cv2.flip(frame,1)
-
     output_frame = frame.copy()
     
     # Blurring the frame
@@ -55,10 +54,9 @@ while True:
     # converting into gray scale
     frameGray = cv2.cvtColor(frameBlur,cv2.COLOR_BGR2GRAY)
 
-    # using the Canny
+    # using of Canny
     threshold1 = cv2.getTrackbarPos('Threshold 1',windowName)
     threshold2 = cv2.getTrackbarPos('Threshold 2',windowName)
-        
     frameCanny = cv2.Canny(frameGray,threshold1,threshold2)
 
     # diloation

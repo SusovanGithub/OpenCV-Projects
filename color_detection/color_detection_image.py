@@ -2,16 +2,14 @@ import cv2
 import pandas as pd
 import sys
 
-# read the .csv file which have name of the colors
+# * Read the .csv file which have name of the colors
 colorName_df = pd.read_csv('color_name.csv')
 
-
-# Global Variable Creation
+# !Global Variable Creation
 isClick = False
 color = (0,0,0)
 
-
-# Getting the name ofthe color
+# * Getting the name ofthe color
 def getColorName(R,G,B):
     minimum = 10000
     for i in range(len(colorName_df)):
@@ -21,7 +19,7 @@ def getColorName(R,G,B):
             color_name = colorName_df.loc[i,"Name"]
     return color_name
 
-# Creating the color finding function
+# * Creating the color finding function
 def onclick(event,x,y,flag,params):
     """
     this function find the coordinate and rgb value and the name of the color
@@ -32,30 +30,34 @@ def onclick(event,x,y,flag,params):
         isClick = True
         color = (int(b),int(g),int(r))
         
+# * Creating a Window
+windowName = 'Output'    
+cv2.namedWindow(windowName)
 
+# * Binding a event
+cv2.setMouseCallback(windowName,onclick)
 
 if __name__ == "__main__":
     path = sys.argv[1]
     img = cv2.imread(path)
     
     while True:
-        cv2.namedWindow('Output')                   # Creating the Window
-        cv2.setMouseCallback('Output',onclick)      # Binding a event
-
         # creating a copy
         temp = img.copy()
 
-        # Display the color name on the screen
+        # * Display the color name on the screen
         if isClick == True:
-            cv2.rectangle(temp,(30,20),(550,50),color,-1)  # creating a rectangle of the same color
+            cv2.rectangle(temp,(30,20),(550,50),color,-1)   # creating a rectangle of the same color
             b,g,r = color
             color_name = getColorName(r,g,b)                # Finding the name of the color
-            # print the name on the screem 
+            # print the color name into the Frame 
             text = f'{color_name} R:{r} G:{g} B:{b}'        
             cv2.putText(temp, text, (40,45), cv2.FONT_HERSHEY_PLAIN,2,(0,0,0),2)
 
-        # Creating the Exit Pole
-        cv2.imshow('Output',temp)
+        # * Display
+        cv2.imshow(windowName,temp)
+
+        # * Creating the Exit Pole
         if cv2.waitKey(1) & 0xFF == 27:
             break
 

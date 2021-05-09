@@ -1,6 +1,8 @@
 #
 **<H1 align = "center">Object Tracking</H1>**
 
+## Description
+
 <img align='right' height=100% width=38% src='https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/object_tracking.gif'/>
 
 **Author** : Susovan Das

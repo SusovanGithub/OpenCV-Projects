@@ -5,6 +5,15 @@
 
 <img align= "right" width=300 height=150 src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/book1.jpeg">
 
-**Author** : Susovan Das  
+**Author** : Susovan Das
+
 **Language** : Python  
-**Version** : 1.0
+
+**External Module** : opencv-contrib-python
+
+</br>
+This is a basic and small project of Computer Vision. This project helps us to track a object form the fram using **Python's** [_OpenCV_](https://opencv.org/) module. In this we use our PC's WebCam to catch the frames and tracking a object.
+
+## How to Download
+
+To download this project Click this --> ![Download](download.png){: height="4" width="2"}

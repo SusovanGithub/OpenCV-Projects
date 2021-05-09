@@ -2,7 +2,7 @@
 
  ## Description
 ---
-<img align= "right" width=300 height=150 src="https://github.com/SusovanGithub/OpenCV-Projects/master/Asset/book1.jpg">
+<img align= "right" width=300 height=150 src="https://github.com/SusovanGithub/OpenCV-Projects/master/Asset/book1.jpeg">
 
 **Author** : Susovan Das
 

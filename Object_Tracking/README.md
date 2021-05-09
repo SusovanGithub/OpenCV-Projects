@@ -28,8 +28,6 @@ pip install opencv-contrib-python
 
 ## Usage
 
-You can run this by simply double clicking the _main.py_ or you can use the Command Prompt/Terminal and go to the location of the _main.py_ and type 
-```bash
-python main.py
-```
+You can run this by simply double clicking the _main.py_.  
+Or you can use the Command Prompt/Terminal and go to the location of the _main.py_ and type `python main.py`.  
 After that a window will popup named **Tracker Window** now using mouse select the object which you want to tack and then press _SPACE_ or _ENTER_ button for cancel the selection process press _c_ button.

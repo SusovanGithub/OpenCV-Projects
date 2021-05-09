@@ -1,11 +1,10 @@
- # <h1 align = "middle">**Object Tracking**</h1>
+#
+**<H1 align = "center">Object Tracking</H1>**
 
- ## Description
----
-<img align= "right" width=300 height=150 src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Asset/book1.jpeg">
+## Description
 
-**Author** : Susovan Das
+<img align= "right" width=300 height=150 src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/book1.jpeg">
 
-**Language** : Python
-
+**Author** : Susovan Das  
+**Language** : Python  
 **Version** : 1.0

@@ -23,16 +23,21 @@ cv2.namedWindow(windowName)
 
 # * Creating the Webcam Instance
 cam = cv2.VideoCapture(0)           
-# address = 'http://192.168.0.100:4747/video'
-# cam.open(address)
+address = 'http://192.168.0.100:4747/video'
+cam.open(address)
 
-tracker = cv2.legacy_TrackerCSRT.create()
-isTrue, frame = cam.read()                      # Reading the Frames
+# * Tracker Adding
+tracker = cv2.legacy_TrackerKCF.create()
+
+# Reading the First frame
+isTrue, frame = cam.read()                      
 # Mirror the frame output
 frame = cv2.flip(frame,1)
+
 bbox = cv2.selectROI(windowName,frame,False)
 tracker.init(frame,bbox)
 
+# * Video Rolling
 while True:
     timer = time.time()             # Getting the time
     isTrue, frame = cam.read()      # Reading the Frames
@@ -40,8 +45,8 @@ while True:
     # Mirror the frame output
     frame = cv2.flip(frame,1)
 
+    # * Tracking the object
     isFound, bbox = tracker.update(frame)
-
     if isFound:
         drawBox(frame,bbox)
     else:

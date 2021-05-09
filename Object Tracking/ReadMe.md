@@ -16,4 +16,4 @@ This is a basic and small project of Computer Vision. This project helps us to t
 
 ## How to Download
 
-To download this project Click this --> ![Download](download.png){: height="4" width="2"}
+To download this project Click this --> [<img src="download.png" width="15" height="15"/>](download.png)

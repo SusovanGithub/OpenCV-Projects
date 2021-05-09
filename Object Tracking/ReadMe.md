@@ -3,13 +3,15 @@
 
 ## Description
 
+<img align='right' height=100 width=500 src='a.gif'/>
+
 **Author** : Susovan Das
 
 **Language** : Python  
 
 **External Module** : opencv-contrib-python
 
-This is a basic and small project of Computer Vision. This project helps us to track a object form the fram using **Python's** [ _OpenCV_ ](https://opencv.org/) module. In this we use our PC's WebCam to catch the frames and tracking a object.
+This is a basic and small project of Computer Vision. This project helps us to track a object frame by frame using **Python's** [OpenCV](https://opencv.org/) module. In this we use our PC's Cam to catch the frames and tracking a object.
 
 ## How to Download
 
@@ -17,13 +19,16 @@ To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.
 
 ## Requirements
 
-This project requir a external module called _opencv-contrib-python_. So use the package manager [pip][pip_website] to install the _OpenCV_ package.
+This project requir a external module called _opencv-contrib-python_. So use the package manager [pip](https://pypi.org/project/pip/) to install the _OpenCV_ package.
 
 ```bash
 pip install opencv-contrib-python
 ```
 
+## Usage
 
-
-
-[pip_website]: (https://pypi.org/project/pip/)
+You can run this by simply double clicking the _main.py_ or you can use the Command Prompt/Terminal and go to the location of the _main.py_ and type 
+```bash
+python main.py
+```
+After that a window will popup named **Tracker Window** now using mouse select the object which you want to tack and then press _SPACE_ or _ENTER_ button for cancel the selection process press _c_ button.

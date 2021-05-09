@@ -23,8 +23,8 @@ cv2.namedWindow(windowName)
 
 # * Creating the Webcam Instance
 cam = cv2.VideoCapture(0)           
-address = 'http://192.168.0.100:4747/video'
-cam.open(address)
+# address = 'http://192.168.0.100:4747/video'
+# cam.open(address)
 
 # * Tracker Adding
 tracker = cv2.legacy_TrackerKCF.create()

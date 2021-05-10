@@ -15,7 +15,7 @@ This is a basic and small project of Computer Vision. In this we are detecting t
 
 |_color_detection_image.py_|_color_detection_webcam.py_|
 |---|---|
-|![Color Detection from a Image](https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_image.gif)|![Color Detection using WebCam][webcamGif]|
+|![Color Detection from a Image][imgGif]|![Color Detection using WebCam][webcamGif]|
 
 <br>
 
@@ -55,6 +55,7 @@ Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.
 To exit press _ESC_ button.
 
 <!--Inner Links-->
-[webcamGif]: (https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_webcam.gif)
-[imgHSVGif]: (https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/detectColorHSV.gif)
-[DownGit]: (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Color_Detection)
+[imgGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_image.gif
+[webcamGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_webcam.gif
+[imgHSVGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/detectColorHSV.gif
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Color_Detection

@@ -17,8 +17,6 @@ This is a basic and small project of Computer Vision. In this we are detecting t
 |---|---|
 |![Color Detection from a Image][imgGif]|![Color Detection using WebCam][webcamGif]|
 
-<br>
-
 ### **Color Detection in HSV Color Scale**
 
 ![Color Detection in HSV Color Scale][imgHSVGif]

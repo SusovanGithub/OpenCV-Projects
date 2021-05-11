@@ -12,11 +12,13 @@ face_cascade = cv2.CascadeClassifier('face_detect_cascade.xml')
 windowName = "Output"
 cv2.namedWindow(windowName)
 
-# # Creating the trackpad
+#  Creating the trackpad
 # cv2.createTrackbar('Scale Factor',windowName,1.1,9,empty)
 # cv2.createTrackbar('Min Neighbors',windowName,1,10,empty)
 
 cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
+# address = 'http://192.168.0.101:8080/video'
+# cam.open(address)
 
 # Recording Starts
 while True:

@@ -4,12 +4,14 @@ import numpy as np
 def empty(a):
     pass
 
-def getContours(img,output_img):
+def getgdContours(img,output_img):
     contours,hierachy =  cv2.findContours(img,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_NONE)
     for cnt in contours:
         areaMin = cv2.getTrackbarPos('Min Area',windowName)
+        areaMax = cv2.getTrackbarPos('Max Area',windowName)
+        print(windowName)
         area = cv2.contourArea(cnt)
-        if area > areaMin:
+        if area > areaMin and area<= areaMax:
             cv2.drawContours(output_img,cnt,-1,(255,0,255),3)
             peri = cv2.arcLength(cnt,True)
             approx = cv2.approxPolyDP(cnt,.02*peri, True)
@@ -24,17 +26,17 @@ def getContours(img,output_img):
 
 
 # * Creating the Window
-windowName = 'Object Detection'        # Window Name
+windowName = 'Shape Detection'        # Window Name
 cv2.namedWindow(windowName)
 
 # * Adding the Track pad
 cv2.createTrackbar('Threshold 1',windowName,0,255,empty)
 cv2.createTrackbar('Threshold 2',windowName,0,255,empty)
 cv2.createTrackbar('Min Area',windowName,5000,30000,empty)
+cv2.createTrackbar('Max Area',windowName,100000,100000,empty)
 
-
-cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
-
+# * Creating the Webcam Instance
+cam = cv2.VideoCapture(0)           
 # address = 'http://192.168.0.100:4747/video'
 # cam.open(address)
 
@@ -42,10 +44,7 @@ cam = cv2.VideoCapture(0)           # Creating the Webcam Instance
 # Start Video Rolling
 while True:
     isTrue, frame = cam.read()              # Reading the Frames
-    frame = cv2.resize(frame,(640,480))
     
-    # Mirror the image output
-    # frame = cv2.flip(frame,1)
     output_frame = frame.copy()
     
     # Blurring the frame
@@ -63,7 +62,7 @@ while True:
     kernel = np.ones((5,5))
     frameDilate = cv2.dilate(frameCanny,kernel,iterations=1)
     
-    getContours(frameDilate,output_frame)
+    getgdContours(frameDilate,output_frame)
 
     # Display
     cv2.imshow(windowName,output_frame)

@@ -4,12 +4,11 @@ import numpy as np
 # ! Global Variables
 pts1 = np.zeros((4,2))
 counter = 0
-windowName = 'Main Image'
 output_width, output_height = 300, 400
 
 # * Function creation for getting the points where mouse clicked
 def onClick(event,x,y,flag,img):
-    global circle,counter                               # ! Accessing the Global Variables
+    global counter                               # ! Accessing the Global Variables
     if event == cv2.EVENT_LBUTTONDBLCLK:
         pts1[counter] = x,y
         counter = counter + 1
@@ -26,6 +25,7 @@ def main():
     imgC = img.copy()
     
     # * Creating the Window
+    windowName = 'Main Image'
     cv2.namedWindow(windowName)
 
     # * Binding the Event

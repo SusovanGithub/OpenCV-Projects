@@ -1,10 +1,11 @@
 import cv2
 import numpy as np
 
+# ! Global Variables
 pts1 = np.zeros((4,2))
 counter = 0
-windowName = "Output"
 
+# *
 def onClick(event,x,y,flag,params):
     global circle,counter
     if event == cv2.EVENT_LBUTTONDBLCLK:
@@ -12,6 +13,7 @@ def onClick(event,x,y,flag,params):
         cv2.circle(img,(x,y),5,(0,0,255),-1)
         counter = counter + 1
 
+cv2.setMouseCallback(windowName,onClick)
 
 img = cv2.imread('images/book3.jpeg')
 
@@ -25,8 +27,6 @@ while True:
         cv2.imshow('Result',imgOut)
     
     cv2.imshow(windowName,img)
-
-    cv2.setMouseCallback(windowName,onClick)
     
     if cv2.waitKey(1) & 0xFF == 27:
         break

@@ -16,13 +16,13 @@ All Projects are Listed here
 * [Color Detection](Color_Detection/)
 * [Object Detection](Object_Detection/)
 * [Object Tracking](Object_Tracking/)
-* [Shape Detection](###-Shape-Detection)
-* [Image Wrap Prespective View](###-Image-Wrap-Prespective-View)
-* [Utils File](###-Utils-File)
-* [WebCam](###-WebCam)
+* [Shape Detection](###-shape-detection)
+* [Image Wrap Prespective View](###-image-wrap-prespective-view)
+* [Utils File](###-utils-file)
+* [WebCam](###-webcam)
 
 ### Shape Detection
-<img align='right' width=30% src='Assets/shape_detection.gif'/>
+<img align='right' width=35% src='Assets/shape_detection.gif'/>
 
 In this we are detecting the shapes of object by using OpenCV methods.
 
@@ -34,8 +34,6 @@ Or you can use the Command Prompt/Terminal and go to the location of the _image_
 A window will came out named _Shape Detection_. There are 4 parameters _Threshold 1_, _Threshold 2_, _Min Area_, _Max Area_. To change this parameters you have to use the Track Pad, by changing this value selet the optimal value to detect the shapes of the object.
 
 To exit press _ESC_ button.
-<br>
-<br>
 <br>
 
 ### Image Wrap Prespective View

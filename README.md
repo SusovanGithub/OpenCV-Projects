@@ -1,5 +1,5 @@
 #
-**<H1 align = "center">Color Detection</H1>**
+**<H1 align = "center">OpenCV Projects</H1>**
 
 ## Description
 
@@ -9,19 +9,11 @@
 
 **External Module** : OpenCV, Numpy, Pandas
 
-### **Color Detection**
+This Repository contents some projects on Computer Vision using OpneCV libary of python.
 
-This is a basic and small project of Computer Vision. In this we are detecting the color for a pecific location of the frame and finding that color name in the real world. To get the colors name there was a _.csv_ file named '_color_name.csv_' which content the name of the colors with ther R,G,B valus.  
+All Projects are Listed here
 
-|_color_detection_image.py_|_color_detection_webcam.py_|
-|---|---|
-|![Color Detection from a Image][imgGif]|![Color Detection using WebCam][webcamGif]|
-
-### **Color Detection in HSV Color Scale**
-
-![Color Detection in HSV Color Scale][imgHSVGif]
-
-_detectColorHSV.py_ helps to detect the color in HSV scale, for that we are using some track pad to change the value for the HSV components and see how does this thing detect the colors.
+* [Color Detection](Color_Detection/)
 
 ## How to Download
 

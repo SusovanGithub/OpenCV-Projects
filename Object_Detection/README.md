@@ -36,7 +36,6 @@ pip install opencv-python
 
 You can run this by simply double clicking the _.py_ files.  
 Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.  
-
 To exit press _ESC_ button.
 
 <!--Inner Links-->

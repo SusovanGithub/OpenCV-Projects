@@ -17,9 +17,9 @@ All Projects are Listed here
 * [Object Detection](Object_Detection/)
 * [Object Tracking](Object_Tracking/)
 * [Shape Detection](#shape-detection)
-* [Image Wrap Prespective View](###image-wrap-prespective-view)
-* [Utils File](###utils-file)
-* [WebCam](###webcam)
+* [Image Wrap Prespective View](#image-wrap-prespective-view)
+* [Utils File](#utils-file)
+* [WebCam](#webcam)
 
 ### Shape Detection
 <img align='right' width=35% src='Assets/shape_detection.gif'/>

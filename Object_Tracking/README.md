@@ -26,7 +26,7 @@ This project requir a external module called _opencv-contrib-python_. So use the
 pip install opencv-contrib-python
 ```
 
-## Usage
+## How to Use
 
 You can run this by simply double clicking the _object_tracking.py_.  
 Or you can use the Command Prompt/Terminal and go to the location of the _object_tracking.py_ and type `python object_tracking.py.py`.  

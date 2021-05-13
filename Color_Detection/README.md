@@ -42,7 +42,7 @@ pip install numpy
 pip install pandas
 ```
 
-## Usage
+## How to Use
 
 You can run this by simply double clicking the _.py_ files.  
 Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.  

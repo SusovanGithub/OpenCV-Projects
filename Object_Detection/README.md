@@ -32,7 +32,7 @@ This project requir a external module called opencv-contrib-python. So use the p
 pip install opencv-python
 ```
 
-## Usage
+## How to Use
 
 You can run this by simply double clicking the _.py_ files.  
 Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.  

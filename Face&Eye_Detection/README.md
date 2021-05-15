@@ -1,5 +1,5 @@
 #
-**<H1 align = "center">Face&Eye Detection</H1>**
+**<H1 align = "center">Face & Eye Detection using Haar Classifier</H1>**
 
 ## Description
 
@@ -7,18 +7,18 @@
 
 **Language** : Python  
 
-**External Module** : OpenCV
+**External Module** : [OpenCV][opencv-link]
 
 |_face_detection.py_|_eye_detection.py_|
 |---|---|
 |![Face Detection][fdGif]|![Eye Detection][edGif]|
 
-This Project helps to detect some object from a frame or images. Here we are detecting the faces and eyes. we are using _OpenCV's_ built in class [_CascadeClassifier_](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) where we loading a pretrained _.xml_ **Haar** classifier file which is provided by the _OpenCV_ itself. _OpenCV_ provides many other pretrained classifiers as -  
+This Project helps to detect the faces and eyes from frame. We are using _OpenCV's_ built in class [_CascadeClassifier_](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) where we loading a pretrained _.xml_ **Haar** classifier file which is provided by the _OpenCV_ itself. _OpenCV_ provides many other pretrained Haar classifiers as -  
 * haarcascade_frontalface_default.xml
 * haarcascade_smile.xml
 * haarcascade_eye.xml
 * haarcascade_upperbody.xml  
-etc, to check all search the location using 'cv2.haarcascades'.
+etc, to check all search the location using 'cv2.haarcascades' into the python shell.
 
 ## How to Download
 
@@ -39,6 +39,7 @@ Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.
 To exit press _ESC_ button.
 
 <!--Inner Links-->
+[opencv-link]: https://opencv.org/
 [fdGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/face_detection.gif
 [edGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/eye_detection.gif
 [DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Face_Detection

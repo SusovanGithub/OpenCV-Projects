@@ -14,7 +14,8 @@ This Repository contents some projects on Computer Vision using OpneCV libary of
 All Projects are Listed here
 
 * [Color Detection](Color_Detection/)
-* [Object Detection](Object_Detection/)
+* [Barcode Detection](Barcode_Detection/)
+* [Face & Eye Detection using Haar Classifer](Face&Eye_Detection/)
 * [Object Tracking](Object_Tracking/)
 * [Shape Detection](#shape-detection)
 * [Image Wrap Prespective View](#image-wrap-prespective-view)

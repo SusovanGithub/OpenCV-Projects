@@ -1,5 +1,5 @@
 #
-**<H1 align = "center">Object Detection</H1>**
+**<H1 align = "center">Face&Eye Detection</H1>**
 
 ## Description
 

@@ -4,8 +4,8 @@ from pyzbar.pyzbar import decode
 
 # * Creating the Webcam Instance
 cam = cv2.VideoCapture(0)           
-# address = 'http://192.168.0.101:8080/video'
-# cam.open(address)
+address = 'http://192.168.0.101:8080/video'
+cam.open(address)
 
 # * Start the Video
 while True:

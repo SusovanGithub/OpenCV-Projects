@@ -7,7 +7,7 @@
 
 **Language** : Python  
 
-**External Module** : OpenCV, Numpy, Pandas
+**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas]
 
 ### **Color Detection**
 
@@ -53,7 +53,16 @@ Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.
 To exit press _ESC_ button.
 
 <!--Inner Links-->
+[opencv]: https://opencv.org/
+
+[numpy]: https://numpy.org/
+
+[pandas]: https://pypi.org/project/pandas/
+
 [imgGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_image.gif
+
 [webcamGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_webcam.gif
+
 [imgHSVGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/detectColorHSV.gif
+
 [DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Color_Detection

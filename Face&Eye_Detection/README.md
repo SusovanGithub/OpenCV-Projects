@@ -7,13 +7,13 @@
 
 **Language** : Python  
 
-**External Module** : [OpenCV][opencv-link]
+**External Module** : [OpenCV][opencv]
 
 |_face_detection.py_|_eye_detection.py_|
 |---|---|
 |![Face Detection][fdGif]|![Eye Detection][edGif]|
 
-This Project helps to detect the faces and eyes from frame. We are using _OpenCV's_ built in class [_CascadeClassifier_](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html) where we loading a pretrained _.xml_ **Haar** classifier file which is provided by the _OpenCV_ itself. _OpenCV_ provides many other pretrained Haar classifiers as -  
+This Project helps to detect the faces and eyes from frame. We are using _OpenCV's_ built in class [_CascadeClassifier_][cascadeclassifier] where we loading a pretrained _.xml_ **Haar** classifier file which is provided by the _OpenCV_ itself. _OpenCV_ provides many other pretrained Haar classifiers as -  
 * haarcascade_frontalface_default.xml
 * haarcascade_smile.xml
 * haarcascade_eye.xml
@@ -26,7 +26,7 @@ To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.
 
 ## Requirements
 
-This project requir a external module called opencv-contrib-python. So use the package manager [pip](https://pypi.org/project/pip/) to install the OpenCV package. 
+This project requir a external module called _opencv-python_. So use the package manager [pip](https://pypi.org/project/pip/) to install the _OpenCV_ package. 
 
 ```bash
 pip install opencv-python
@@ -39,7 +39,12 @@ Or you can use the Command Prompt/Terminal and `python 'Files Name.py'`.
 To exit press _ESC_ button.
 
 <!--Inner Links-->
-[opencv-link]: https://opencv.org/
+[opencv]: https://opencv.org/
+
+[cascadeclassifier]: https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
+
 [fdGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/face_detection.gif
+
 [edGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/eye_detection.gif
+
 [DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Face_Detection

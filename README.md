@@ -7,9 +7,9 @@
 
 **Language** : Python  
 
-**External Module** : [OpenCV](https://opencv.org/), [Numpy](https://numpy.org/), [Pandas](https://pypi.org/project/pandas/)
+**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas], [Pyzbar][pyzbar]
 
-This Repository contents some projects on Computer Vision using OpneCV libary of python.
+This Repository contents some projects on Computer Vision based on mainly  _OpneCV_ libary of Python.
 
 All Projects are Listed here
 
@@ -76,6 +76,7 @@ This project requir some external modules.
 * OpenCV
 * Numpy
 * Pandas
+* Pyzbar
 
 So use the package manager [pip](https://pypi.org/project/pip/) to install those package.
 
@@ -83,9 +84,18 @@ So use the package manager [pip](https://pypi.org/project/pip/) to install those
 pip install opencv-contrib-python
 pip install numpy
 pip install pandas
+pip install pyzbar
 ```
 
 <!--Inner Links-->
+[opencv]: https://opencv.org/
+
+[numpy]: https://numpy.org/
+
+[pandas]: https://pypi.org/project/pandas/
+
+[pyzbar]: https://pypi.org/project/pyzbar
+
 [DownGit-main]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects
 
 [DownGit-image_warp_prespective]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/blob/master/image_warp_perspective.py

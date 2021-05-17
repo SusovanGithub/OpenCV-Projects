@@ -7,7 +7,7 @@
 
 **Language** : Python  
 
-**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas], [Pyzbar][pyzbar]
+**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas], [Pyzbar][pyzbar], [Face Recognition][face-recognition]
 
 This Repository contents some projects on Computer Vision based on mainly  _OpneCV_ libary of Python.
 
@@ -15,6 +15,7 @@ All Projects are Listed here
 
 * [Color Detection](Color_Detection/)
 * [Barcode Detection](Barcode_Detection/)
+* [Face Recognition](Face_Recognition/)
 * [Face & Eye Detection using Haar Classifer](Face&Eye_Detection/)
 * [Object Tracking](Object_Tracking/)
 * [Shape Detection](#shape-detection)
@@ -68,7 +69,7 @@ To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com
 
 ## How to Download
 
-To download all this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-main]
+To download all this projects Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-main]
 
 ## Requirements
 
@@ -85,6 +86,7 @@ pip install opencv-contrib-python
 pip install numpy
 pip install pandas
 pip install pyzbar
+pip install face-recognition
 ```
 
 <!--Inner Links-->
@@ -95,6 +97,8 @@ pip install pyzbar
 [pandas]: https://pypi.org/project/pandas/
 
 [pyzbar]: https://pypi.org/project/pyzbar
+
+[face-recognition]: https://pypi.org/project/face-recognition/
 
 [DownGit-main]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects
 

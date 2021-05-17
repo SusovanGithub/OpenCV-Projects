@@ -28,6 +28,8 @@ print('Number of Faces found = ',len(classNames))
 print('Names = ',classNames)
 
 cam = cv2.VideoCapture(0)                   # Creating WebCam Instance
+address = 'http://192.168.0.100:8080/video'
+cam.open(address)
 
 # * State Rolling
 while True:
@@ -63,7 +65,7 @@ while True:
     cv2.imshow('Output',frame)
     
     # * Exit Pole: Press 'ESC' for exit
-    if cv2.waitKey(1) & 0xFF == 27:
+    if cv2.waitKey(10) & 0xFF == 27:
         break
 
 cam.release()               # Release the WebCam

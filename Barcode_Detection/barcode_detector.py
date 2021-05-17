@@ -4,14 +4,12 @@ from pyzbar.pyzbar import decode
 
 # * Creating the Webcam Instance
 cam = cv2.VideoCapture(0)           
-address = 'http://192.168.0.101:8080/video'
-cam.open(address)
 
 # * Start the Video
 while True:
     isTrue, frame = cam.read()      # Reading the Frames
     
-    # * Detect the barcode
+    # * Detecting and decoding the barcodes
     for code in decode(frame):
         # * Decoding the data from barcode and putting into the frame
         data = code.data.decode('utf-8')    # Getting the data from the barcode
@@ -20,9 +18,9 @@ while True:
                     text = str(data),
                     org = (x,y-5),
                     fontFace = cv2.FONT_HERSHEY_SIMPLEX,
-                    fontScale= .35,
-                    color = (20,190,0),
-                    thickness = 1)
+                    fontScale= .75,
+                    color = (50,205,0),
+                    thickness = 2)
 
         # * Ceating the boundinng box
         bound_pts = np.array(code.polygon,np.int32)   # Getting the polygon lines
@@ -32,8 +30,6 @@ while True:
                       isClosed = True, 
                       color = (240,70,255),
                       thickness = 2)
-
-
 
     # *  Display the Frame
     cv2.imshow('Output',frame)

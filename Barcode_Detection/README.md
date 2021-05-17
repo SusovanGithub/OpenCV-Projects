@@ -11,8 +11,7 @@
 
 **External Module** : [OpenCV][opencv], [Pyzbar][pyzbar]
 
-This is a basic and small project of Computer Vision. This project helps us to track a object frame by frame using **Python's** _OpenCV_ module.  
-In this I use my WebCam to catch the frames and tracking the object. 
+Here we are detecting the barcode and decoding them.
 
 ## How to Download
 

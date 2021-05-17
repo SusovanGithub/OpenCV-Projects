@@ -33,7 +33,7 @@ pip install pyzbar
 ## How to Use
 
 You can run this by simply double clicking the _barcode_detection.py_.  
-Or you can use the Command Prompt/Terminal and go to the location of the _object_tracking.py_ and type `python barcode_detection.py.py`.  
+Or you can use the Command Prompt/Terminal and go to the location of the _object_tracking.py_ and type `python barcode_detection.py`.  
 
 For exit press _ESC_ button.
 

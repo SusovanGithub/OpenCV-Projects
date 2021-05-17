@@ -28,8 +28,6 @@ print('Number of Faces found = ',len(classNames))
 print('Names = ',classNames)
 
 cam = cv2.VideoCapture(0)                   # Creating WebCam Instance
-address = 'http://192.168.0.100:8080/video'
-cam.open(address)
 
 # * State Rolling
 while True:

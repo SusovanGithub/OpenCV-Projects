@@ -16,6 +16,7 @@ All Projects are Listed here
 * [Color Detection](Color_Detection/)
 * [Barcode Detection](Barcode_Detection/)
 * [Face Recognition](Face_Recognition/)
+* [Lips Coloring](Lips_Coloring/)
 * [Face & Eye Detection using Haar Classifer](Face&Eye_Detection/)
 * [Object Tracking](Object_Tracking/)
 * [Shape Detection](#shape-detection)

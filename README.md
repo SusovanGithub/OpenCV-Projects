@@ -32,7 +32,7 @@ In this we are detecting the shapes of object by using OpenCV methods.
 To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-shape_detection]
 
 You can run this by simply double clicking the _image_warp_prespective.py_.  
-Or you can use the Command Prompt/Terminal and go to the location of the _image_warp_prespective.py_ and type `python image_warp_prespective.py.py`.
+Or you can use the Command Prompt/Terminal and go to the location of the _image_warp_prespective.py_ and type `python shape_detection.py`.
 
 A window will came out named _Shape Detection_. There are 4 parameters _Threshold 1_, _Threshold 2_, _Min Area_, _Max Area_. To change this parameters you have to use the Track Pad, by changing this value selet the optimal value to detect the shapes of the object.
 

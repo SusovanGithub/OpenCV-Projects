@@ -90,6 +90,9 @@ pip install pyzbar
 pip install face-recognition
 ```
 
+<br>
+<h3 align = "center"> Show some ❤️ by starring this repository!</h3>
+
 <!--Inner Links-->
 [opencv]: https://opencv.org/
 

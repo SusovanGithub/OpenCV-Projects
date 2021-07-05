@@ -47,4 +47,4 @@ To exit press _ESC_ button.
 
 [edGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/eye_detection.gif
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Face&Eye_Detection
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Face_Eye_Detection

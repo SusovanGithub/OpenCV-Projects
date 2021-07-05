@@ -22,7 +22,7 @@ etc, to check all search the location using 'cv2.haarcascades' into the python s
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -43,8 +43,8 @@ To exit press _ESC_ button.
 
 [cascadeclassifier]: https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
 
-[fdGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/face_detection.gif
+[fdGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/face_detection.gif
 
-[edGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/eye_detection.gif
+[edGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/eye_detection.gif
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Face_Detection
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Face_Detection

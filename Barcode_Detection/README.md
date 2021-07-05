@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align='right' height=100% width=38% src='https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/barcode_detection.gif'/>
+<img align='right' height=100% width=38% src='https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/barcode_detection.gif'/>
 
 **Author** : Susovan Das
 
@@ -15,7 +15,7 @@ Here we are detecting the barcode and decoding them.
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -42,4 +42,4 @@ For exit press _ESC_ button.
 
 [pyzbar]: https://pypi.org/project/pyzbar/
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Barcode_Detection
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Barcode_Detection

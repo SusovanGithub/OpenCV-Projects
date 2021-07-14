@@ -7,7 +7,7 @@
 
 **Language** : Python  
 
-**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas], [Pyzbar][pyzbar], [Face Recognition][face-recognition]
+**External Module** : [OpenCV][opencv], [Numpy][numpy], [Pandas][pandas], [Pyzbar][pyzbar], [Face Recognition][face-recognition], [MediaPipe][mediapipe]
 
 This Repository contents some projects on Computer Vision based on mainly  _OpneCV_ libary of Python.
 
@@ -54,7 +54,7 @@ To exit press _ESC_ button.
 
 ### Utils File
 
-This is a _.py_ file which contains some useful and important functions
+This is a _python_ file which contains some useful and important functions
 
 |**Function Name**|**Preview**|
 |---|---|
@@ -79,6 +79,8 @@ This project requir some external modules.
 * Numpy
 * Pandas
 * Pyzbar
+* Face Recognition
+* MediaPipe
 
 So use the package manager [pip](https://pypi.org/project/pip/) to install those package.
 
@@ -88,6 +90,7 @@ pip install numpy
 pip install pandas
 pip install pyzbar
 pip install face-recognition
+pip install mediapipe
 ```
 
 <br>
@@ -103,6 +106,8 @@ pip install face-recognition
 [pyzbar]: https://pypi.org/project/pyzbar
 
 [face-recognition]: https://pypi.org/project/face-recognition/
+
+[mediapipe]: https://mediapipe.dev/
 
 [DownGit-main]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects
 

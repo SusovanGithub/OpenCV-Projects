@@ -1,6 +1,11 @@
 #
 **<H1 align = "center">OpenCV Projects</H1>**
 
+<!-- all project gif combined -->
+<div align="center">
+    <img height=30% src='Assets/OpenCV-main-video.gif'/>
+</div>
+
 ## Description
 
 **Author** : Susovan Das

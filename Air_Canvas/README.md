@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align='right' height=100% width=38% src='https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/air_canvas.gif'/>
+<img align='right' height=100% width=38% src='https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/air_canvas.gif'/>
 
 **Author** : Susovan Das
 
@@ -15,7 +15,7 @@ It is a Computer Vision based project where we frist detacting the hand and it's
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -50,12 +50,12 @@ There are total 4 Gestures,-
 
 [mediapipe]: https://mediapipe.dev/
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Air_Canvas
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Air_Canvas
 
-[selectionmode]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/Air_Canvas-selctionmode.png
+[selectionmode]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/Air_Canvas-selctionmode.png
 
-[drawmode]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/Air_Canvas-drawmode.png
+[drawmode]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/Air_Canvas-drawmode.png
 
-[hovermode]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/Air_Canvas-hovermode.png
+[hovermode]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/Air_Canvas-hovermode.png
 
-[clearmode]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/Air_Canvas-clearmode.png
+[clearmode]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/Air_Canvas-clearmode.png

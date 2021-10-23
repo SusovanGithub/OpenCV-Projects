@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align='right' height=100% width=38% src='https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/lips_coloring.gif'/>
+<img align='right' height=100% width=38% src='https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/lips_coloring.gif'/>
 
 **Author** : Susovan Das
 
@@ -15,7 +15,7 @@ In this we are detection the landmarks of a face and from that we are coloring t
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -42,4 +42,4 @@ For exit press _ESC_ button.
 
 [face-recognition]: https://pypi.org/project/face-recognition/
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Lips_Coloring
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Lips_Coloring

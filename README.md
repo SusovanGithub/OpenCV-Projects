@@ -18,6 +18,7 @@ This Repository contents some projects on Computer Vision based on mainly  _Opne
 
 All Projects are Listed here
 * [Air Canvas](Air_Canvas/)
+* [Harry Potter Cloak](Harry_Poter_Cloak/)
 * [Color Detection](Color_Detection/)
 * [Barcode Detection](Barcode_Detection/)
 * [Face Recognition](Face_Recognition/)
@@ -34,7 +35,7 @@ All Projects are Listed here
 
 In this we are detecting the shapes of object by using OpenCV methods.
 
-To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-shape_detection]
+To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-shape_detection]
 
 You can run this by simply double clicking the _image_warp_prespective.py_.  
 Or you can use the Command Prompt/Terminal and go to the location of the _image_warp_prespective.py_ and type `python shape_detection.py`.
@@ -49,7 +50,7 @@ To exit press _ESC_ button.
 
 In this we are creating a bird eye view of a object from a image.
 
-To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-image_warp_prespective]
+To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-image_warp_prespective]
 
 You can run this by simply double clicking the _image_warp_prespective.py_.  
 Or you can use the Command Prompt/Terminal and go to the location of the _image_warp_prespective.py_ and type `python image_warp_prespective.py`.  
@@ -65,17 +66,17 @@ This is a _python_ file which contains some useful and important functions
 |---|---|
 |stackImage()|<img align='right' src='Assets/stackImage.gif'/>|
 
-To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-myUtils]
+To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-myUtils]
 
 ### WebCam
 
 This is a simple _python_ program to access the webcam.
 
-To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-WebCam]
+To download this file Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-WebCam]
 
 ## How to Download
 
-To download all this projects Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-main]
+To download all this projects Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit-main]
 
 ## Requirements
 
@@ -114,12 +115,12 @@ pip install mediapipe
 
 [mediapipe]: https://mediapipe.dev/
 
-[DownGit-main]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects
+[DownGit-main]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects
 
-[DownGit-image_warp_prespective]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/blob/master/image_warp_perspective.py
+[DownGit-image_warp_prespective]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/blob/master/image_warp_perspective.py
 
-[DownGit-shape_detection]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/blob/master/shape_detection.py
+[DownGit-shape_detection]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/blob/master/shape_detection.py
 
-[DownGit-myUtils]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/blob/master/myUtils.py
+[DownGit-myUtils]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/blob/master/myUtils.py
 
-[DownGit-WebCam]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/blob/master/webcam.py
+[DownGit-WebCam]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/blob/master/webcam.py

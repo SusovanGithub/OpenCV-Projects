@@ -25,7 +25,7 @@ _detectColorHSV.py_ helps to detect the color in HSV scale, for that we are usin
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>][DownGit]
 
 ## Requirements
 
@@ -59,10 +59,10 @@ To exit press _ESC_ button.
 
 [pandas]: https://pypi.org/project/pandas/
 
-[imgGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/color_detection_image.gif
+[imgGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_image.gif
 
-[webcamGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/color_detection_webcam.gif
+[webcamGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/color_detection_webcam.gif
 
-[imgHSVGif]: https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/detectColorHSV.gif
+[imgHSVGif]: https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/detectColorHSV.gif
 
-[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Color_Detection
+[DownGit]: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Color_Detection

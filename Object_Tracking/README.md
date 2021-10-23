@@ -3,7 +3,7 @@
 
 ## Description
 
-<img align='right' height=100% width=38% src='https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/object_tracking.gif'/>
+<img align='right' height=100% width=38% src='https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/object_tracking.gif'/>
 
 **Author** : Susovan Das
 
@@ -16,7 +16,7 @@ In this I use my WebCam to catch the frames and tracking the object.
 
 ## How to Download
 
-To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/DasBabuGH/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/DasBabuGH/OpenCV-Projects/tree/master/Object_Tracking)
+To download this project Click this --> &nbsp; &nbsp; [<img src="https://github.com/SusovanGithub/OpenCV-Projects/blob/master/Assets/.download_icon.png" width="20" height="20"/>](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/SusovanGithub/OpenCV-Projects/tree/master/Object_Tracking)
 
 ## Requirements
 
